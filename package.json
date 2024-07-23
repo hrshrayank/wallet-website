@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "@repo/typescript-config": "^0.0.0",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },
@@ -20,5 +20,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
 }
